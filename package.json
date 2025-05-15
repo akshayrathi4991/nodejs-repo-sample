@@ -1,20 +1,25 @@
 {
-  "name": "simple-node-app",
+  "name": "nodejs-repo",
   "version": "1.0.0",
-  "description": "A simple Node.js app with ESLint, Prettier, and CI/CD",
-  "main": "src/index.js",
+  "description": "",
+  "main": "index.js",
+  "devDependencies": {
+    "eslint": "^9.26.0",
+    "eslint-config-prettier": "^10.1.5",
+    "prettier": "^3.5.3"
+  },
   "scripts": {
-    "start": "node src/index.js",
-    "test": "echo \"No tests yet\" && exit 0",
-    "lint": "eslint .",
-    "format": "prettier --write ."
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/akshayrathi4991/nodejs-repo.git"
   },
   "keywords": [],
-  "author": "You",
-  "license": "MIT",
-  "devDependencies": {
-    "eslint": "^8.57.0",
-    "eslint-config-prettier": "^9.1.0",
-    "prettier": "^3.3.1"
-  }
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/akshayrathi4991/nodejs-repo/issues"
+  },
+  "homepage": "https://github.com/akshayrathi4991/nodejs-repo#readme"
 }
