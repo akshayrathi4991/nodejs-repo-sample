@@ -24,13 +24,13 @@ jobs:
           name: Build Docker image
           command: |
             echo "Building Docker image"
-            docker build -t $DOCKER_USERNAME/node-app:latest .
+            docker build -t "$DOCKER_USERNAME/node-app:latest" .
 
       - run:
           name: Push Docker image
           command: |
             echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-            docker push $DOCKER_USERNAME/node-app:latest
+            docker push "$DOCKER_USERNAME/node-app:latest"
 
 workflows:
   build_test_deploy:
