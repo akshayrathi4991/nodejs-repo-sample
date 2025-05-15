@@ -5,7 +5,7 @@ metadata:
   description: My Nodejs repo app
   annotations:
     github.com/project-slug: 'akshayrathi4991/nodejs-repo'
-    circleci.com/project-slug: 'github/akshayrathi4991/nodejs-repo'
+    # circleci.com/project-slug: 'github/akshayrathi4991/nodejs-repo'
 spec:
   type: service
   lifecycle: experimental
