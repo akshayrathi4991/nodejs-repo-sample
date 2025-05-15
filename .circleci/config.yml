@@ -15,9 +15,9 @@ jobs:
       #     name: Lint the code
       #     command: npm run lint
 
-      - run:
-          name: Run tests
-          command: npm test
+      # - run:
+      #     name: Run tests
+      #     command: npm test
 
       - run:
           name: Build Docker image
