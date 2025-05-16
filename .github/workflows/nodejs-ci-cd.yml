@@ -27,10 +27,10 @@ jobs:
           password: ${{ vars.DOCKER_PASSWORD }}
 
       - name: Build Docker image
-        run: docker build -t ${{ vars.DOCKER_USERNAME }}/nodejs-repo:latest .
+        run: docker build -t ${{ vars.DOCKER_USERNAME }}/nodejs-repo:github .
 
       - name: Push Docker image
-        run: docker push ${{ vars.DOCKER_USERNAME }}/nodejs-repo:latest
+        run: docker push ${{ vars.DOCKER_USERNAME }}/nodejs-repo:github
 
       # - name: Lint code
       #   run: npm run lint
