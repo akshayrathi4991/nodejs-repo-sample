@@ -1,7 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: ${{ values.project-name | dump }}
+  name: ${{ values.name | dump }}
   annotations:
     # github.com/project-slug: akshayrathi4991/nodejs-repo
     # aws.amazon.com/aws-codebuild-project-tags: project=backstage
