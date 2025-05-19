@@ -1,8 +1,7 @@
 apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
-  name: my-nodejs-repo-app
-  description: My Nodejs repo app
+  name: ${{ values.project-name | dump }}
   annotations:
     github.com/project-slug: akshayrathi4991/nodejs-repo
     aws.amazon.com/aws-codebuild-project-tags: project=backstage
@@ -11,4 +10,4 @@ metadata:
 spec:
   type: service
   lifecycle: experimental
-  owner: guests
+  owner: ${{ values.owner }}

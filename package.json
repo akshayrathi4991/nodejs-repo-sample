@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-repo",
+  "name": "${{ values.project-name }}",
   "version": "1.0.0",
   "description": "",
   "type": "module",
@@ -9,17 +9,9 @@
     "lint": "eslint .",
     "format": "prettier --write ."
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/akshayrathi4991/nodejs-repo.git"
-  },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/akshayrathi4991/nodejs-repo/issues"
-  },
-  "homepage": "https://github.com/akshayrathi4991/nodejs-repo#readme",
   "devDependencies": {
     "eslint": "^9.26.0",
     "eslint-config-prettier": "^10.1.5",
